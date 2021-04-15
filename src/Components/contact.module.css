@@ -1,0 +1,76 @@
+* {
+  color: white;
+}
+
+.hcl {
+  font-size: 600%;
+  line-height: 0.7;
+  margin: 6% 0 0 15%;
+  font-weight: 600;
+}
+
+.a {
+  margin: 4% 0 0 85%;
+  display: block;
+  font-size: 170%;
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  top: 20px;
+}
+
+.a :hover {
+  width: 100px;
+  height: 100px;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.main {
+  margin: 10% 0 0 20%;
+  display: block;
+}
+
+.main p {
+  font-size: 170%;
+}
+
+.main h1 {
+  font-size: 310%;
+  font-weight: 600;
+}
+
+.main a {
+  text-decoration: none;
+  color: red;
+  margin-top: 0.2%;
+  display: block;
+  font-weight: 350;
+  font-size: 100%;
+}
+
+.main a:hover {
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+  /* margin-top: 0.2%; */
+}
+
+@keyframes example {
+  0% {
+    color: white;
+    left: 0px;
+    top: 0px;
+  }
+  30% {
+    color: white;
+    left: 20px;
+    top: 0px;
+  }
+  100% {
+    color: white;
+    left: 25px;
+    top: 0px;
+  }
+}

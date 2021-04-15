@@ -1,0 +1,81 @@
+.names {
+  color: red;
+  margin: 10% 0% 0% 15%;
+}
+
+.h1cl {
+  font-size: 630%;
+  font-weight: 600;
+  line-height: 0.5;
+  cursor: pointer;
+  color: red;
+}
+
+h1 :hover {
+  cursor: pointer;
+}
+
+.about:hover h1 {
+  display: none;
+}
+
+.about:hover::before {
+  content: "About";
+  font-size: 630%;
+  font-weight: 600;
+  line-height: 0.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.work:hover h1 {
+  display: none;
+  cursor: pointer;
+}
+
+.work:hover::before {
+  content: "Work";
+  font-size: 630%;
+  font-weight: 600;
+  line-height: 0.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.contact:hover h1 {
+  display: none;
+}
+
+.contact:hover::before {
+  content: "Contact";
+  font-size: 630%;
+  font-weight: 600;
+  line-height: 0.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes example {
+  0% {
+    color: white;
+    left: 0px;
+    top: 0px;
+  }
+  40% {
+    color: white;
+    left: 40px;
+    top: 0px;
+  }
+  100% {
+    color: white;
+    left: 40px;
+    top: 0px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
