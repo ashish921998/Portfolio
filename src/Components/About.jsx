@@ -17,17 +17,23 @@ function About() {
         <h1>About</h1>
         <p>
           Hi, I am Ashish. I am a Passionate Full Stack Developer fueled by
-          <br />
           energy and enthusiasm, looking to break into the Software Development
-          Industry
+          Industry and break some ground.
           <br />
-          and break some ground.
           <br />
-          <br />I dont like to define mt
         </p>
-        <a href={Pdf} target="_blank" rel="noreferrer">
+        <a
+          href={Pdf}
+          target="_blank"
+          rel="noreferrer"
+          style={{ fontSize: "150%" }}
+        >
           My Resume(pdf)
         </a>
+
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   );

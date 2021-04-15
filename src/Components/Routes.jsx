@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router";
 import Contact from "./Contact";
 import Home from "./Home";
 import About from "./About";
+import Work from "./Work";
 
 function Routes() {
   return (
@@ -16,6 +17,9 @@ function Routes() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/work">
+          <Work />
         </Route>
       </Switch>
     </div>

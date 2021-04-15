@@ -28,35 +28,35 @@ function Contact() {
           <br />
           <br />
           <br />
-          <a
-            href="mailto:ashish.hudar@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            ashish.hudar@gmail.com
-          </a>
-          <br />
-          <a
-            href="https://github.com/ashish921998"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          <br />
-          <a
-            href="http://www.linkedin.com/in/ash921998"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-          <br />
-          <a href="http://www.twitter.com" target="_blank" rel="noreferrer">
-            Twitter
-          </a>
-          <br />
         </p>
+        <a
+          href="mailto:ashish.hudar@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          ashish.hudar@gmail.com
+        </a>
+        <br />
+        <a
+          href="https://github.com/ashish921998"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+        <br />
+        <a
+          href="http://www.linkedin.com/in/ash921998"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+        <br />
+        <a href="http://www.twitter.com" target="_blank" rel="noreferrer">
+          Twitter
+        </a>
+        <br />
       </div>
     </div>
   );

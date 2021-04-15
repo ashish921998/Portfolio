@@ -19,14 +19,6 @@
   top: 20px;
 }
 
-.a :hover {
-  width: 100px;
-  height: 100px;
-  animation-name: example;
-  animation-duration: 1s;
-  position: relative;
-}
-
 .main {
   margin: 10% 0 0 20%;
   display: block;
@@ -46,31 +38,15 @@
   color: red;
   margin-top: 0.2%;
   display: block;
-  font-weight: 350;
-  font-size: 100%;
+  position: relative;
+  font-size: 160%;
 }
 
 .main a:hover {
-  animation-name: example;
-  animation-duration: 1s;
-  position: relative;
-  /* margin-top: 0.2%; */
+  transform: translateX(2%);
+  transition: transform 250ms ease;
 }
 
-@keyframes example {
-  0% {
-    color: white;
-    left: 0px;
-    top: 0px;
-  }
-  30% {
-    color: white;
-    left: 20px;
-    top: 0px;
-  }
-  100% {
-    color: white;
-    left: 25px;
-    top: 0px;
-  }
+body {
+  overflow-x: hidden;
 }

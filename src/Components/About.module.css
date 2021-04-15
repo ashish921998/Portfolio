@@ -22,14 +22,14 @@
 .a :hover {
   width: 100px;
   height: 100px;
-  animation-name: example;
-  animation-duration: 1s;
-  position: relative;
+  transform: translateX(8%);
+  transition: transform 250ms ease-in-out;
 }
 
 .main {
-  margin: 10% 0 0 20%;
+  margin: 15% auto;
   display: block;
+  max-width: 60%;
 }
 
 .main p {
@@ -51,26 +51,6 @@
 }
 
 .main a:hover {
-  animation-name: example;
-  animation-duration: 1s;
-  position: relative;
-  /* margin-top: 0.2%; */
-}
-
-@keyframes example {
-  0% {
-    color: white;
-    left: 0px;
-    top: 0px;
-  }
-  30% {
-    color: white;
-    left: 20px;
-    top: 0px;
-  }
-  100% {
-    color: white;
-    left: 25px;
-    top: 0px;
-  }
+  transform: translateX(4%);
+  transition: transform 250ms ease-in-out;
 }
