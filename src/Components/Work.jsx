@@ -7,6 +7,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function Work() {
   let iconStyles = { margin: "1% 2% 0 0", fontSize: "2.5em" };
@@ -17,6 +18,21 @@ function Work() {
       </Link>
       <div className={styles.main}>
         <div>
+          <Player
+            className={styles.lot}
+            autoplay
+            loop
+            // src="https://assets7.lottiefiles.com/packages/lf20_nctfolkp.json"
+            // src="https://assets4.lottiefiles.com/packages/lf20_csibz3jw.json"
+            // src="https://assets1.lottiefiles.com/packages/lf20_ipmaglti.json"
+            // src="https://assets7.lottiefiles.com/packages/lf20_mf4jsc3s.json"
+            // src="https://assets4.lottiefiles.com/packages/lf20_5k0romp3.json"
+            src="https://assets3.lottiefiles.com/packages/lf20_vwx4m8ut.json"
+            // src="https://assets9.lottiefiles.com/packages/lf20_ljd2bhbo.json"
+          ></Player>
+        </div>
+
+        <div style={{ marginTop: "10%" }}>
           <h1>Dineout Clone</h1>
           <h2>Restaurant table booking platform</h2>
           <div>

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./About.module.css";
 import Pdf from "../Ashish Huddar.pdf";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function About() {
   return (
@@ -9,9 +10,20 @@ function About() {
       <Link className={styles.a} to="/">
         Ashish
       </Link>
-      <div style={{ marginTop: "16%" }}>
-        <h1 className={styles.hc}>I Develop, Deploy and </h1>
-        <h1 className={styles.hc}>Maintain tech products</h1>
+      <div style={{ marginTop: "8%" }}>
+        {/* <h1 className={styles.hc}>I Develop, Deploy and </h1>
+        <h1 className={styles.hc}>Maintain tech products</h1> */}
+        <Player
+          className={styles.lot}
+          autoplay
+          loop
+          // src="https://assets7.lottiefiles.com/packages/lf20_nctfolkp.json"
+          // src="https://assets4.lottiefiles.com/packages/lf20_csibz3jw.json"
+          // src="https://assets1.lottiefiles.com/packages/lf20_ipmaglti.json"
+          // src="https://assets7.lottiefiles.com/packages/lf20_mf4jsc3s.json"
+          src="https://assets4.lottiefiles.com/packages/lf20_5k0romp3.json"
+          // src="https://assets3.lottiefiles.com/packages/lf20_vwx4m8ut.json"
+        ></Player>
       </div>
       <div className={styles.main}>
         <h1>About</h1>
@@ -26,7 +38,6 @@ function About() {
           href={Pdf}
           target="_blank"
           rel="noreferrer"
-          style={{ fontSize: "150%" }}
         >
           My Resume(pdf)
         </a>

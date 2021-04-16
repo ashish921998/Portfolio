@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  margin: 16% 10%;
+  margin: 8% 10%;
 }
 
 .projects {
@@ -33,4 +33,31 @@
   transform: translateX(2%);
   transition: transform 250ms ease;
   cursor: pointer;
+}
+
+.lot {
+  height: 350px;
+  width: 350px;
+}
+
+@media only screen and (max-width: 600px) {
+  .a {
+    margin: 4% 0% 0 40%;
+    position: unset;
+  }
+  .lot {
+    height: 250px;
+    width: 250px;
+  }
+
+  .main h1 {
+    font-size: 150%;
+    line-height: 1%;
+    cursor: pointer;
+  }
+
+  .main h2 {
+    color: red;
+    font-size: 85%;
+  }
 }

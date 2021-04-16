@@ -15,7 +15,7 @@
 
 .main > div h1:hover {
   transform: translateX(8%);
-  transition: transform 250ms ease-in-out;
+  transition: transform 150ms ease-in-out;
 }
 
 a {
@@ -51,4 +51,35 @@ a {
 
 .contact:hover:before {
   content: "Contact";
+}
+
+.lot {
+  height: 500px;
+  width: 500px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .main > div h1 {
+    font-size: 300%;
+    font-weight: 60%;
+    line-height: 0.5;
+  }
+
+  .first {
+    width: 35%;
+    margin: 3% 0 0 20%;
+    text-align: left;
+  }
+
+  .lot {
+    height: 250px;
+    width: 250px;
+  }
 }

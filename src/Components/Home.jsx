@@ -24,6 +24,7 @@ function Home() {
       </div>
       <div>
         <Player
+          className={styles.lot}
           autoplay
           loop
           // src="https://assets7.lottiefiles.com/packages/lf20_nctfolkp.json"
@@ -34,7 +35,6 @@ function Home() {
           // src="https://assets4.lottiefiles.com/packages/lf20_5k0romp3.json"
           // src="https://assets3.lottiefiles.com/packages/lf20_vwx4m8ut.json"
           // src="https://assets9.lottiefiles.com/packages/lf20_ljd2bhbo.json"
-          style={{ height: "500px", width: "500px", marginTop: 0 }}
         ></Player>
       </div>
     </div>

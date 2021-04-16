@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./contact.module.css";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function Contact() {
   return (
@@ -8,21 +9,25 @@ function Contact() {
       <Link className={styles.a} to="/">
         Ashish
       </Link>
-      <div style={{ marginTop: "16%" }}>
-        <h1 className={styles.hcl}>Let's make </h1>
-        <h1 className={styles.hcl}>Something Great</h1>
+      <div style={{ marginTop: "3%" }}>
+        {/* <h1 className={styles.hcl}>Let's make </h1>
+
+        <h1 className={styles.hcl}>Something Great</h1> */}
+
+        <Player
+          className={styles.lot}
+          autoplay
+          loop
+          src="https://assets8.lottiefiles.com/packages/lf20_bp1bwvhv.json"
+        ></Player>
       </div>
       <div className={styles.main}>
         <h1>Contact</h1>
         <p>
           I am seeking out my first Opportunity as a Software Development
-          <br />
           Engineer. I want to Bring my critical thinking and Problem solving
-          <br />
           attitude to the table and help in solving real business problems in a
-          <br />
           way that optimizes all of our respective experience and knowledge.
-          <br />
           <br />
           Feel free to reach out through any platforms below:
           <br />
