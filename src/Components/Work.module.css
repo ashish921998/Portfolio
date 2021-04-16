@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 16% 10%;
+}
+
+.projects {
+  margin-top: 8%;
+}
+
+.a {
+  margin: 4% 0 0 85%;
+  display: block;
+  font-size: 170%;
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  top: 20px;
+}
+
+.main h1 {
+  font-size: 450%;
+  line-height: 1%;
+  cursor: pointer;
+}
+
+.main h2 {
+  color: red;
+  font-size: 150%;
+}
+
+.main h2:hover {
+  transform: translateX(2%);
+  transition: transform 250ms ease;
+  cursor: pointer;
+}
