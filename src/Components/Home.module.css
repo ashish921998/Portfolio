@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 50%;
   height: 100vh;
 }
 
@@ -79,7 +78,7 @@ a {
   }
 
   .lot {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
   }
 }
