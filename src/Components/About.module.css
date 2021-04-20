@@ -5,18 +5,8 @@
 .hc {
   font-size: 430%;
   line-height: 0.7;
-  margin: 6% 0 0 15%;
+  margin: 2% 0 0 15%;
   font-weight: 600;
-}
-
-.a {
-  margin: 4% 0 0 85%;
-  display: block;
-  font-size: 170%;
-  text-decoration: none;
-  color: white;
-  position: fixed;
-  top: 20px;
 }
 
 .a :hover {
@@ -27,7 +17,7 @@
 }
 
 .main {
-  margin: 8% auto;
+  margin: 3% auto;
   display: block;
   max-width: 60%;
 }

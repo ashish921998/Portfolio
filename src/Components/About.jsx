@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
       <Navbar />
-      <div style={{ marginTop: "8%" }}>
+      <div style={{ marginTop: "3%" }}>
         <Player
           className={styles.lot}
           autoplay
