@@ -1,19 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./contact.module.css";
 import { Player } from "@lottiefiles/react-lottie-player";
+import Navbar from "./Navbar";
 
 function Contact() {
   return (
     <div>
-      <Link className={styles.a} to="/">
-        Ashish
-      </Link>
+      <Navbar />
       <div style={{ marginTop: "3%" }}>
-        {/* <h1 className={styles.hcl}>Let's make </h1>
-
-        <h1 className={styles.hcl}>Something Great</h1> */}
-
         <Player
           className={styles.lot}
           autoplay

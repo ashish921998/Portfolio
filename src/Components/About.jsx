@@ -1,18 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./About.module.css";
 import Pdf from "../Ashish Huddar.pdf";
 import { Player } from "@lottiefiles/react-lottie-player";
+import Navbar from "./Navbar";
 
 function About() {
   return (
     <div>
-      <Link className={styles.a} to="/">
-        Ashish
-      </Link>
+      <Navbar />
       <div style={{ marginTop: "8%" }}>
-        {/* <h1 className={styles.hc}>I Develop, Deploy and </h1>
-        <h1 className={styles.hc}>Maintain tech products</h1> */}
         <Player
           className={styles.lot}
           autoplay

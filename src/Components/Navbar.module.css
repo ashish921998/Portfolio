@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  margin: 3% 0 0 60%;
+  height: 40px;
+}
+
+.nav > a {
+  margin: 1% 5%;
+  font-size: 150%;
+}
+
+.nav > a:hover {
+  border-bottom: solid 3px #fc552c;
+  transition: 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: flex;
+    margin: 2% 0% 0 1%;
+  }
+
+  .nav > a {
+    margin: 1% auto;
+    font-size: 100%;
+  }
+}
