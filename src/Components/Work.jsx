@@ -13,6 +13,8 @@ import dineout from "../Images/1.png";
 import medium from "../Images/medium.png";
 import happyfox from "../Images/happyfox.png";
 import myhours from "../Images/myhours.png";
+import sudoku from "../Images/sudoku.png";
+import ecom from "../Images/ecom.png";
 
 function Work() {
   return (
@@ -50,6 +52,50 @@ function Work() {
 
           <div className={styles.img}>
             <img src={dineout} alt="workImage" />
+          </div>
+        </div>
+
+        <div className={styles.projects}>
+          <div>
+            <h1>Sudoku Solver</h1>
+            <a
+              href="https://github.com/ashish921998/Soduko"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sudoku solving webapp
+            </a>
+            <div>
+              <RiReactjsLine className={styles.iconStyles} />
+              <IoLogoJavascript className={styles.iconStyles} />
+              <SiHtml5 className={styles.iconStyles} />
+              <SiCss3 className={styles.iconStyles} />
+            </div>
+          </div>
+          <div className={styles.img}>
+            <img src={sudoku} alt="workImage" />
+          </div>
+        </div>
+
+        <div className={styles.projects}>
+          <div>
+            <h1>Ecommerce Webapp</h1>
+            <a
+              href="https://github.com/ashish921998/React-Ecom-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ecommerce app built with react and Mock API
+            </a>
+            <div>
+              <RiReactjsLine className={styles.iconStyles} />
+              <IoLogoJavascript className={styles.iconStyles} />
+              <SiHtml5 className={styles.iconStyles} />
+              <SiCss3 className={styles.iconStyles} />
+            </div>
+          </div>
+          <div className={styles.img}>
+            <img src={ecom} alt="workImage" />
           </div>
         </div>
 
