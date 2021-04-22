@@ -78,7 +78,8 @@ a {
   }
 
   .lot {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
+    margin: 0;
   }
 }
