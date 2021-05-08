@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 
-.main a {
+.main p {
   color: red;
   font-size: 150%;
   display: block;
@@ -49,6 +49,21 @@
   height: 90%;
 }
 
+.link {
+  width: 100px;
+  border: 1px solid red;
+  height: 30px;
+  border-radius: 8px;
+  display: block;
+  margin: 3% 2%;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.link:hover {
+  background-color: red;
+}
+
 @media only screen and (max-width: 600px) {
   .a {
     margin: 4% 0% 0 40%;
@@ -61,16 +76,13 @@
   }
 
   .main h1 {
-    font-size: 150%;
+    font-size: 130%;
     line-height: 1%;
     cursor: pointer;
   }
 
-  .main a {
-    color: red;
-    font-size: 70%;
-    display: block;
-    margin-bottom: 2%;
+  .projects > div > p {
+    font-size: medium;
   }
 
   .projects {
@@ -81,14 +93,26 @@
   }
 
   img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
     text-align: center;
-    margin: 0 auto;
+    margin: 8% auto;
   }
 
   .iconStyles {
     margin: 1% 2% 0 0;
     font-size: 1em;
+  }
+
+  .link {
+    width: 50px;
+    border: 1px solid red;
+    height: 15px;
+    border-radius: 5px;
+    display: block;
+    margin: 3% 1%;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 70%;
   }
 }

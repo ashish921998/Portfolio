@@ -81,4 +81,28 @@ a {
     height: 350px;
     width: 350px;
   }
+
+  .work:before {
+    content: "Work";
+  }
+
+  .about span {
+    display: none;
+  }
+
+  .contact:before {
+    content: "Contact";
+  }
+
+  .contact span {
+    display: none;
+  }
+
+  .about:before {
+    content: "About";
+  }
+
+  .work span {
+    display: none;
+  }
 }

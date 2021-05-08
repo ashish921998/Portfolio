@@ -6,7 +6,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
-// import { AiFillGithub } from "react-icons/ai";
+import { FiExternalLink } from "react-icons/fi";
+import { AiFillGithub } from "react-icons/ai";
 import { Player } from "@lottiefiles/react-lottie-player";
 import Navbar from "./Navbar";
 import dineout from "../Images/1.png";
@@ -30,16 +31,46 @@ function Work() {
           ></Player>
         </div>
 
-        <div style={{ marginTop: "10%" }} className={styles.projects}>
+        <div className={styles.projects} style={{ marginTop: "10%" }}>
+          <div>
+            <h1>Sudoku Solver</h1>
+            <p>Sudoku solving webapp</p>
+            <div>
+              <RiReactjsLine className={styles.iconStyles} />
+              <IoLogoJavascript className={styles.iconStyles} />
+              <SiHtml5 className={styles.iconStyles} />
+              <SiCss3 className={styles.iconStyles} />
+            </div>
+            <div style={{ display: "flex" }}>
+              <a
+                href="https://github.com/ashish921998/Soduko"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <AiFillGithub />
+                Code
+              </a>
+              <a
+                href="https://sudokuash.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <FiExternalLink />
+                Demo
+              </a>
+            </div>
+          </div>
+          <div className={styles.img}>
+            <img src={sudoku} alt="workImage" />
+          </div>
+        </div>
+
+        <div className={styles.projects}>
           <div>
             <h1>Dineout Clone</h1>
-            <a
-              href="https://github.com/ashish921998/Hexagon"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Restaurant table booking platform
-            </a>
+            <p>Restaurant table booking platform</p>
             <div>
               <RiReactjsLine className={styles.iconStyles} />
               <SiMongodb className={styles.iconStyles} />
@@ -47,6 +78,26 @@ function Work() {
               <SiHtml5 className={styles.iconStyles} />
               <SiCss3 className={styles.iconStyles} />
               <FaNode className={styles.iconStyles} />
+            </div>
+            <div style={{ display: "flex" }}>
+              <a
+                href="https://github.com/ashish921998/Hexagon"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <AiFillGithub />
+                Code
+              </a>
+              <a
+                href="https://github.com/ashish921998/Hexagon"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <FiExternalLink />
+                Demo
+              </a>
             </div>
           </div>
 
@@ -57,41 +108,33 @@ function Work() {
 
         <div className={styles.projects}>
           <div>
-            <h1>Sudoku Solver</h1>
-            <a
-              href="https://github.com/ashish921998/Soduko"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Sudoku solving webapp
-            </a>
+            <h1>Ecommerce </h1>
+            <p>Ecommerce app built with react and Mock API</p>
             <div>
               <RiReactjsLine className={styles.iconStyles} />
               <IoLogoJavascript className={styles.iconStyles} />
               <SiHtml5 className={styles.iconStyles} />
               <SiCss3 className={styles.iconStyles} />
             </div>
-          </div>
-          <div className={styles.img}>
-            <img src={sudoku} alt="workImage" />
-          </div>
-        </div>
-
-        <div className={styles.projects}>
-          <div>
-            <h1>Ecommerce Webapp</h1>
-            <a
-              href="https://github.com/ashish921998/React-Ecom-app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ecommerce app built with react and Mock API
-            </a>
-            <div>
-              <RiReactjsLine className={styles.iconStyles} />
-              <IoLogoJavascript className={styles.iconStyles} />
-              <SiHtml5 className={styles.iconStyles} />
-              <SiCss3 className={styles.iconStyles} />
+            <div style={{ display: "flex" }}>
+              <a
+                href="https://github.com/ashish921998/React-Ecom-app"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <AiFillGithub />
+                Code
+              </a>
+              <a
+                href="https://ashishecom.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <FiExternalLink />
+                Demo
+              </a>
             </div>
           </div>
           <div className={styles.img}>
@@ -102,18 +145,32 @@ function Work() {
         <div className={styles.projects}>
           <div>
             <h1>Medium Clone</h1>
-            <a
-              href="https://github.com/ashish921998/Foxtrot"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Blogging website
-            </a>
+            <p>Blogging website</p>
             <div>
               <RiReactjsLine className={styles.iconStyles} />
               <IoLogoJavascript className={styles.iconStyles} />
               <SiHtml5 className={styles.iconStyles} />
               <SiCss3 className={styles.iconStyles} />
+            </div>
+            <div style={{ display: "flex" }}>
+              <a
+                href="https://github.com/himrd95/Foxtrot"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <AiFillGithub />
+                Code
+              </a>
+              <a
+                href="https://github.com/himrd95/Foxtrot"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <FiExternalLink />
+                Demo
+              </a>
             </div>
           </div>
           <div className={styles.img}>
@@ -124,17 +181,31 @@ function Work() {
         <div className={styles.projects}>
           <div>
             <h1>Myhours Clone</h1>
-            <a
-              href="https://github.com/ashish921998/Fluorine"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Time management webapp
-            </a>
+            <p>Time management webapp</p>
             <div>
               <IoLogoJavascript className={styles.iconStyles} />
               <SiHtml5 className={styles.iconStyles} />
               <SiCss3 className={styles.iconStyles} />
+            </div>
+            <div style={{ display: "flex" }}>
+              <a
+                href="https://github.com/ashish921998/Fluorine"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <AiFillGithub />
+                Code
+              </a>
+              <a
+                href="https://github.com/ashish921998/Fluorine"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.link}
+              >
+                <FiExternalLink />
+                Demo
+              </a>
             </div>
           </div>
 
@@ -143,7 +214,7 @@ function Work() {
           </div>
         </div>
 
-        <div className={styles.projects}>
+        {/* <div className={styles.projects}>
           <div>
             <h1>Happyfox Clone</h1>
             <a
@@ -152,6 +223,7 @@ function Work() {
               rel="noreferrer"
             >
               Software-as-a-service(SaaS) support platform
+              <FiExternalLink />
             </a>
             <div>
               <IoLogoJavascript className={styles.iconStyles} />
@@ -162,7 +234,7 @@ function Work() {
           <div className={styles.img}>
             <img src={happyfox} alt="workImage" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
