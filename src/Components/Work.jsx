@@ -12,7 +12,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import Navbar from "./Navbar";
 import dineout from "../Images/1.png";
 import medium from "../Images/medium.png";
-import happyfox from "../Images/happyfox.png";
+// import happyfox from "../Images/happyfox.png";
 import myhours from "../Images/myhours.png";
 import sudoku from "../Images/sudoku.png";
 import ecom from "../Images/ecom.png";
