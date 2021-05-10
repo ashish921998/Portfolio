@@ -43,32 +43,13 @@ function Work() {
               <SiCss3 className={styles.iconStyles} />
               <FaNode className={styles.iconStyles} />
             </div>
-            <div style={{ display: "flex" }}>
-              <a
-                href="https://github.com/therealdrtroll/sanjeevani"
-                target="_blank"
-                rel="noreferrer"
-                className={styles.link}
-              >
-                <AiFillGithub />
-                Code
-              </a>
-              <a
-                href="https://sanj-front.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-                className={styles.link}
-              >
-                <FiExternalLink />
-                Demo
-              </a>
-            </div>
           </div>
 
           <div className={styles.img}>
-            <img src={sanj} alt="workImage" />
+            <img src={dineout} alt="workImage" />
           </div>
         </div>
+
         <div className={styles.projects}>
           <div>
             <h1>Medium Clone</h1>
