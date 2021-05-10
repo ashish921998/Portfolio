@@ -204,7 +204,7 @@ function Work() {
                 Code
               </a>
               <a
-                href="https://github.com/himrd95/Foxtrot"
+                href="https://medium-web.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className={styles.link}
