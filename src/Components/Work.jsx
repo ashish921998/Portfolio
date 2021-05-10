@@ -13,7 +13,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import Navbar from "./Navbar";
 import dineout from "../Images/1.png";
 import medium from "../Images/medium.png";
-// import happyfox from "../Images/happyfox.png";
+import happyfox from "../Images/happyfox.png";
 import myhours from "../Images/myhours.png";
 
 function Work() {
@@ -122,7 +122,7 @@ function Work() {
           </div>
         </div>
 
-        {/* <div className={styles.projects}>
+        <div className={styles.projects}>
           <div>
             <h1>Happyfox Clone</h1>
             <a
@@ -142,7 +142,7 @@ function Work() {
           <div className={styles.img}>
             <img src={happyfox} alt="workImage" />
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
