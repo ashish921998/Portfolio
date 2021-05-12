@@ -28,11 +28,18 @@ function About() {
         <p>
           Hi, I am Ashish. I am a Passionate Full Stack Developer fueled by
           energy and enthusiasm, looking to break into the Software Development
-          Industry and break some ground.
+          Industry and break some ground. I have been always fond of technology
+          and gadgets. but it took some time to found my calling to software
+          development. I have always liked to play with technology and now I
+          have learned not just to play with it, but play with it correctly and
+          build something meaningful out of it. In last six months I have been
+          doing just that. Its a daily hustle that my mind and body has been
+          used to and Its what I enjoy and love so much. Every time I see a
+          problem that challenges me, I know that's what I am here for.
           <br />
           <br />
         </p>
-        <a href={Pdf} target="_blank" rel="noreferrer">
+        <a href={Pdf} target="_blank" rel="noreferrer" className={styles.link}>
           My Resume(pdf)
         </a>
 

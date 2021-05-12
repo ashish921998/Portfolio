@@ -19,7 +19,7 @@
 .main {
   margin: 3% auto;
   display: block;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .main p {
@@ -31,14 +31,14 @@
   font-weight: 600;
 }
 
-.main a {
+/* .main a {
   text-decoration: none;
   color: red;
   margin-top: 0.2%;
   display: block;
   font-weight: 350;
   font-size: 150%;
-}
+} */
 
 .main a:hover {
   transform: translateX(3%);
@@ -50,12 +50,23 @@
   width: 400px;
 }
 
-@media only screen and (max-width: 600px) {
-  .a {
-    margin: 4% 0% 0 40%;
-    position: unset;
-  }
+.link {
+  width: 200px;
+  border: 1px solid red;
+  height: 40px;
+  border-radius: 8px;
+  display: block;
+  margin: 3% auto;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+}
 
+.link:hover {
+  background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
   .lot {
     height: 250px;
     width: 250px;
@@ -71,7 +82,14 @@
     font-size: 100%;
   }
 
-  .main a {
-    font-size: 100%;
+  .link {
+    width: 150px;
+    border: 1px solid red;
+    height: 33px;
+    border-radius: 8px;
+    display: block;
+    margin: 3% auto;
+    text-align: center;
+    font-size: 15px;
   }
 }

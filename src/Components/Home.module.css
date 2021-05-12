@@ -3,13 +3,14 @@
   justify-content: space-between;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .first {
   width: 35%;
   align-items: center;
   justify-content: center;
-  margin: 3% 0 0 12%;
+  margin: 2% 0 0 12%;
 }
 
 .main > div h1:hover {
@@ -22,7 +23,7 @@ a {
 }
 
 .main > div h1 {
-  font-size: 600%;
+  font-size: 650%;
   font-weight: 80%;
   line-height: 0.5;
   color: red;
@@ -53,8 +54,8 @@ a {
 }
 
 .lot {
-  height: 500px;
-  width: 500px;
+  height: 700px;
+  width: 700px;
   margin-top: 0;
 }
 
